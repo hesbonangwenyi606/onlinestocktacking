@@ -100,4 +100,4 @@ npm test
 - Ensure PostgreSQL is reachable from backend.
 
 ## Notes
-- Update CORS settings in `backen
+- Update CORS settings in 
