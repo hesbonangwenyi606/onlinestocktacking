@@ -57,3 +57,4 @@ const SearchBar = () => {
   );
 };
 
+export
