@@ -98,5 +98,3 @@ npm test
 - Deploy backend to a Node hosting provider Render and set environment variables.
 - Point frontend to backend URL.
 - Ensure PostgreSQL is reachable from backend.
-
-## No
