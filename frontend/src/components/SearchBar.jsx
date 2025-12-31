@@ -57,4 +57,4 @@ const SearchBar = () => {
   );
 };
 
-export defa
+export default SearchBar;
