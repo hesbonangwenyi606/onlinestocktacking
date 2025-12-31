@@ -101,4 +101,4 @@ npm test
 
 ## Notes
 - Update CORS settings in `backend/src/app.js` if frontend URL changes.
-- Update JWT secret before production.
+- Update JWT secret before produ
