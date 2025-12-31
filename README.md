@@ -15,7 +15,6 @@ frontend/         React app (Vite)
 ```
 
 ## Setup
-
 ### 1) Backend
 ```
 cd backend
