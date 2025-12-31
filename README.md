@@ -1,5 +1,4 @@
 # OnlineStocktacking
-
 Full-stack e-commerce platform built with React + Tailwind on the frontend and Node.js + Express + PostgreSQL on the backend. Includes admin analytics, PayPal checkout, image uploads, JWT auth, social login, and automated tests.
 
 ## Tech Stack
