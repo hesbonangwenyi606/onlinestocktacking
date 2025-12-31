@@ -104,3 +104,6 @@ npm test
 - Update JWT secret before production.
 - For production, add HTTPS, rate limits, and object storage for images.
 - Initialize Git with `git init` and commit changes for version control.
+
+
+m djk vjfo vl
