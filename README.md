@@ -99,4 +99,4 @@ npm test
 - Point frontend to backend URL.
 - Ensure PostgreSQL is reachable from backend.
 
-## Notes
+## No
