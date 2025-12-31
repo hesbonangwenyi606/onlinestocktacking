@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-image: radial-gradient(circle at top, rgba(255, 107, 53, 0.12), transparent 45%),
+    linear-gradient(180deg, #f7f2eb 0%, #fefaf6 60%, #f2efe9 100%);
+  min-height: 100vh;
+}
+
+.dark body {
+  background-image: radial-gradient(circle at top, rgba(15, 118, 110, 0.35), transparent 45%),
+    linear-gradient(180deg, #0f111a 0%, #101320 55%, #0b0f17 100%);
+  color: #f5f2e9;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition hover:bg-accentDark;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-full border border-ink/20 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-ink transition hover:border-ink;
+  }
+
+  .card {
+    @apply rounded-3xl bg-white/80 shadow-sm backdrop-blur;
+  }
+
+  .dark .card {
+    @apply bg-night/70 shadow-lg;
+  }
+
+  .input {
+    @apply w-full rounded-2xl border border-ink/10 bg-white/70 px-4 py-3 text-sm focus:border-accent focus:outline-none;
+  }
+
+  .dark .input {
+    @apply border-white/10 bg-night/40 text-white;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
