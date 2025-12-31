@@ -100,4 +100,3 @@ npm test
 - Ensure PostgreSQL is reachable from backend.
 
 ## Notes
-- Up
