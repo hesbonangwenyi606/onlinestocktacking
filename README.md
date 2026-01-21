@@ -81,4 +81,4 @@ npm test
 ## Deployment (Vercel + PostgreSQL)
 - Deploy frontend to Vercel, set `VITE_API_URL` and `VITE_PAYPAL_CLIENT_ID`.
 - Deploy backend to a Node hosting provider Render and set environment variables.
-- Point frontend to backend URL.
+- Point frontend to backend URL
