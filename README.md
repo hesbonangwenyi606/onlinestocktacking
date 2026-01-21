@@ -19,7 +19,6 @@ frontend/         React app (Vite)
 cd backend
 cp .env.example .env
 npm install
-```
 
 Update `.env` values for PostgreSQL, JWT secret, PayPal credentials, and social login keys.
 Create the database and run Prisma:
