@@ -33,7 +33,7 @@ npm run dev
 
 The API runs at `http://localhost:5000`.
 ### Frontend
-```
+
 cd frontend
 cp .env.example .env
 npm install
