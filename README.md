@@ -23,7 +23,6 @@ npm install
 
 Update `.env` values for PostgreSQL, JWT secret, PayPal credentials, and social login keys.
 Create the database and run Prisma:
-```
 npx prisma generate
 npx prisma migrate dev --name init
 
