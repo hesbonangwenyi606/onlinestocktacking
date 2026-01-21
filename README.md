@@ -9,7 +9,6 @@ Full-stack e-commerce platform built with React + Tailwind on the frontend and N
 - Payments: PayPal
 
 ## Project Structure
-```
 backend/          Express API + Prisma
 frontend/         React app (Vite)
 ```
