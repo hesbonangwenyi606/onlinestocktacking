@@ -67,7 +67,6 @@ PayPal requires:
 - `PAYPAL_ENV` (sandbox or live)
 
 Frontend PayPal JS uses `VITE_PAYPAL_CLIENT_ID`.
-
 ## Email Notifications
 Set SMTP values in `.env` to enable order confirmation emails. If SMTP is not set, email sends are skipped.
 
