@@ -38,7 +38,6 @@ cd frontend
 cp .env.example .env
 npm install
 npm run dev
-```
 
 The app runs at `http://localhost:5173`.
 ## API Endpoints
