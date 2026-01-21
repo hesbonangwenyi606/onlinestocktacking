@@ -70,7 +70,7 @@ Product images are uploaded via `multipart/form-data` and stored locally in `bac
 
 ## Tests
 Backend:
-```
+
 cd backend
 npm test
 ```
