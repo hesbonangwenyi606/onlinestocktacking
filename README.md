@@ -29,9 +29,7 @@ npx prisma migrate dev --name init
 ```
 
 Run API:
-```
-npm run dev
-```
+```npm run dev
 
 The API runs at `http://localhost:5000`.
 ### 2) Frontend
