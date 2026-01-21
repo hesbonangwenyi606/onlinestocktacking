@@ -26,7 +26,6 @@ Create the database and run Prisma:
 ```
 npx prisma generate
 npx prisma migrate dev --name init
-```
 
 Run API:
 npm run dev
