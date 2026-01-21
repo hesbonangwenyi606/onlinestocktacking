@@ -11,7 +11,6 @@ Full-stack e-commerce platform built with React + Tailwind on the frontend and N
 ## Project Structure
 backend/          Express API + Prisma
 frontend/         React app (Vite)
-```
 
 ## Setup
 ### Backend
