@@ -46,7 +46,6 @@ npm run dev
 ```
 
 The app runs at `http://localhost:5173`.
-
 ## API Endpoints
 - `/api/auth` register/login/logout, social login callbacks
 - `/api/users` CRUD + profile + addresses
