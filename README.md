@@ -15,8 +15,7 @@ frontend/         React app (Vite)
 ```
 
 ## Setup
-### Backend
-```
+### Backend``
 cd backend
 cp .env.example .env
 npm install
